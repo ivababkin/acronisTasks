@@ -110,9 +110,7 @@ void BohrClass::check(int v,int i, string s)
     {
         if (bohr[u].flag)
         {
-           // cout << i - pattern[bohr[u].patNum].length() + 1 << " " << pattern[bohr[u].patNum] << endl;
             vectOfSymb.push_back((i - pattern[bohr[u].patNum].length()) +  pattern[bohr[u].patNum].length());
-            cout << (i - pattern[bohr[u].patNum].length() + 1) +  pattern[bohr[u].patNum].length() << endl;
         }
     }
 
