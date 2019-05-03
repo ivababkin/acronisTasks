@@ -137,8 +137,6 @@ void BohrClass::findAllPos(const string& s){
     printRes(s);
 }
 int main(){
-    //string s = "---";
-    //cout << s.insert( 2, 1, 'a' );
     BohrClass * b = new BohrClass();
     b->addStringToBohr("abc");
     b->addStringToBohr("bcdc");
